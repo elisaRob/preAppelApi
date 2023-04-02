@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+:root{
+    --couleurPremiere:white;
+}
+
+body{
+    background-color:#222;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    /* align-items:center; */
+   
+
+}
+
+.container{
+    color:var(--couleurPremiere);
+    border-top:10px;
+    margin:10px 0
+}
+
+h1{
+   text-align:center;
+}
+
+
+label{
+    display:block;
+    text-align:center;
+
+}
+
+input:focus{
+    outline:none;
+}
